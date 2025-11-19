@@ -156,7 +156,7 @@ The frontend application will start at `http://localhost:5173`
 ## 📁 Project Structure
 
 ```
-BookingApp/
+HotelHub/
 ├── client/                 # Frontend application
 │   ├── src/
 │   │   ├── assets/        # Images and static files
