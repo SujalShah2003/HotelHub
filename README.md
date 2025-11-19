@@ -84,14 +84,14 @@ Create a `.env` file in the `server` directory with the following variables:
 PORT=5000
 NODE_ENV=development
 
-# Database
-MONGODB_URI=mongodb+srv://<username>:<password>@<cluster-url>/<database-name>?retryWrites=true&w=majority
+# MongoDB Configuration
+MONGODB_URI=mongodb+srv://shahsujal2512_db_user:yXirrJzUnGW4bKWf@booking-app.vfppwfa.mongodb.net/booking?retryWrites=true&w=majority
 
-# JWT Secret
-JWT_SECRET=your_super_secret_jwt_key_here
+# JWT Configuration
+JWT_SECRET=408b5c605d8910b7537905a149470926
 JWT_EXPIRE=7d
 
-# Client URL
+# Client URL Configuration
 CLIENT_URL=http://localhost:5173
 ```
 
